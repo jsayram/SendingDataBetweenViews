@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SendingDataBetweenViews" customModuleProvider="target" sceneMemberID="viewController">
@@ -48,16 +48,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ioZ-p8-vhq"/>
+                    <navigationItem key="navigationItem" title="Main" id="ioZ-p8-vhq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="940" y="123.68815592203899"/>
         </scene>
-        <!--CustomVC-->
+        <!--Details-->
         <scene sceneID="caY-QN-yxr">
             <objects>
-                <viewController id="NqJ-eB-e3K" customClass="CustomVC" customModule="SendingDataBetweenViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Details" id="NqJ-eB-e3K" customClass="CustomVC" customModule="SendingDataBetweenViews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Nc-HC-mhm"/>
                         <viewControllerLayoutGuide type="bottom" id="RBS-zV-bCg"/>
