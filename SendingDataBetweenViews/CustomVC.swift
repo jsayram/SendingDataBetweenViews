@@ -17,6 +17,8 @@ class CustomVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        label.text = text   // this is updated with the buttons pressed
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,9 +26,8 @@ class CustomVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
-    // MARK: - Navigation
+    // - Navigation this is done in your viewController.swift file
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
